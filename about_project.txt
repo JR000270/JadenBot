@@ -1,0 +1,20 @@
+Youtube tutorial found at: https://www.youtube.com/watch?v=RpWeNzfSUHw&t=2s
+This is a feed forward neural network based chatbot using Pytorch
+Implemented concepts: 
+	1. Stemming, Tokenizattion, Bag of words
+	2. Creating training data
+	3. Pytorch modelling and training
+	4. saving/loading model
+	5. making it able to be chatted with
+
+Post completion goals:
+	- make it talk to me (text to speech)
+	- me talk to it (voice to text)
+	- customize/add responses and retrain
+	- make a gui for it to be more pleasing
+	- weather
+	- time
+
+How to update:
+	- can follow pattern in the JSON file to add more responses
+	- after that run train, chat, then app will be up to date

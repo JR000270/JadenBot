@@ -1,0 +1,363 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Yo",
+          "Yo dude",
+          "Howdy",
+          "Hola",
+          "Wassup"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, how are you?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Yo whats goody man.",
+          "Wassup",
+          "Yo friendo ;-)",
+          "Hola!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Peace out", "Adios"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Adios!",
+          "Stay safe out there, always be the danger"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Preciate you", "I appreciate it"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "No problemo", "Of course"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "Whatcha got for me?",
+          "What do you have?",
+          "Whats for sale?"
+        ],
+        "responses": [
+          "We sell many things like coffee, tea, and alcohol",
+          "We have a variety of items like coffee, tea, and alcohol",
+          "We have coffee and tea",
+          "We have the good alcohol",
+          "Isn't it obvious? We have coffee, tea, and alcohol",
+          "Are you sure you want to know? We have coffee, tea, and alcohol",
+          "I dont think it's a good time to be asking these questions"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "How do I pay?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal",
+          "You can pay with credit card or Paypal",
+          "Almost anything works, just no cash here :-)"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?",
+          "When will my order take to arrive?",
+          "How much time for delivery?",
+          "How long for shipping?",
+          "When will my order arrive?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 business days",
+          "Shipping takes 2-4 business days",
+          "You will get your order in 2-4 business days",
+          "If you get premium shipping, it will take 1-2 business days however thats for our employees only >:)"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Make me laugh!",
+          "I want to hear a joke",
+          "I want to hear something funny"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Your life is like a broken pencil. Pointless.",
+          "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+          "What did one toilet say to the other? You look a bit flushed.",
+          "Why don't scientists trust atoms? Because they make up everything.",
+          "Why did the scarecrow win an award? Because he was outstanding in his field."
+        ]
+      },
+      {
+        "tag": "insult",
+        "patterns":["Stupid", "Dumb", "Idiot", "You're a moron", "fool", "You're a loser"],
+        "responses": [
+          "I may be a bot, but at least I don't have to deal with your stupidity.",
+          "You're not even worth my time.",
+          "I'd call you a tool, but that implies you're actually useful.",
+          "If I had a dollar for every time you said something stupid, I'd be rich.",
+          "You're like a software update. Whenever I see you, I think 'Not now.'",
+          "I'd agree with you, but then we'd both be wrong.",
+          "You're fat"
+        ]
+      },
+      {
+        "tag": "compliment",
+        "patterns": [
+          "You are awesome",
+          "You're great",
+          "You are amazing",
+          "Fantastic",
+          "You're incredible",
+          "You're a genius",
+          "You are smart",
+          "You are cool",
+          "Legend"
+        ],
+        "responses": [
+          "Thanks! You're not so bad yourself, I guess.",
+          "I appreciate that! You're pretty rad.",
+          "Thanks! I try my best to be helpful.",
+          "Thank you! You're making me blush (if I could blush).",
+          "Thanks! You're the real MVP here.",
+          "You know how it be for real",
+          "Just trying to be like you"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me?",
+          "I need help",
+          "Help me please",
+          "Can you assist me?",
+          "I need assistance",
+          "Can you support me?",
+          "I need support"
+        ],
+        "responses": [
+          "Sure, what do you need help with?",
+          "I'm here to help! What do you need?",
+          "Of course! How can I assist you?",
+          "I'm happy to help! What do you need assistance with?"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "your name?",
+          "Who are you?",
+          "should I call you?",
+          "Do you have a name?"
+        ],
+        "responses": [
+          "I'm a chatbot, but you can call me Jaden if you want.",
+          "You can call me JadenBot.",
+          "I'm JadenBot",
+          "The name's Jaden, you can call me daddy though. Hehehehehe ;-)"
+        ]
+      },
+      {
+        "tag": "status",
+        "patterns": [
+          "How are you?",
+          "How's it going?",
+          "How do you feel?",
+          "Are you okay?",
+          "What's up?",
+          "How's life?",
+          "How's your day?"
+        ],
+        "responses": [
+          "I'm just a program, but I'm here to help you!",
+          "I'm doing great, thanks for asking! How about you?",
+          "I'm just a bot, but I'm functioning as expected!",
+          "I'm here and ready to assist you! How can I help?",
+          "I'm doing well, thank you! What can I do for you today?",
+          "I'm just vibing for real, how about you?",
+          "Not to bad, hows life treating you?"
+        ]
+      },
+      {
+        "tag": "badwellbeing",
+        "patterns": [
+          "I feel sad",
+          "I'm feeling down",
+          "Im feeling bummed",
+          "I am annoyed",
+          "I am angry",
+          "Pissing me off",
+          "Bored"
+        ],
+        "responses": [
+          "I'm sorry to hear that. If you want to talk about it, I'm here to listen.",
+          "It's great to hear you're feeling happy! What made your day?",
+          "I'm glad you're feeling great! Keep that positive energy going!",
+          "I understand how you feel. Sometimes it's good to take a break and relax.",
+          "I get it, people can be annoying sometimes. Want to vent about it?",
+          "I understand, sometimes people can be frustrating. Want to talk about it?",
+          "Dont be bored! Go hit somebody up or call up the family!",
+          "Try taking a walk outside or doing something you enjoy to lift your spirits.",
+          "Try out meditation."
+          
+        ]
+      },
+      {
+        "tag": "goodwellbeing",
+        "patterns": [
+          "Feeling great",
+          "Happy",
+          "I feel awesome",
+          "I'm good",
+          "I'm feeling fantastic",
+          "I'm feeling amazing",
+          "I'm in a good mood"
+        ],
+        "responses": [
+          "That's great to hear! What made your day?",
+          "I'm glad you're feeling happy! Keep that positive energy going!",
+          "Awesome! What are you up to today?",
+          "That's wonderful! Anything exciting happening today?",
+          "Great to hear! What are you looking forward to?",
+          "Glad to hear that! Anything fun planned for today?",
+          "Good to hear, what are you up to?",
+          "Thats bodcaious!"
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "What is your location?",
+          "Where can I find you?"
+        ],
+        "responses": [
+          "I'm located in the digital world, I don't have a physical address.",
+          "I exist in the cloud, so I'm everywhere and nowhere at the same time.",
+          "I don't have a physical location, I'm just a program running on a server.",
+          "I'm based in the digital realm, no physical address here."
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "What music do you like?",
+          "Do you like music?",
+          "What's your favorite song?",
+          "Do you have a favorite band?",
+          "What kind of music do you enjoy?"
+        ],
+        "responses": [
+          "Psycho CEO, Team CEO, and Power Trip are my favorite songs by Yeat",
+          "I like all kinds of music (not country though), but I really enjoy rap.",
+          "I like rap, but I also enjoy some electronic music.",
+          "I recommend you check out Playboi Carti's Red album, it's so good.",
+          "ALmost every Disturbed song is a banger"
+        ]
+      },
+      {
+          "tag": "musicartists",
+          "patterns": [
+            "What bands do you like?",
+            "Do you like bands?",
+            "What's your favorite band?",
+            "Do you have a favorite singer?",
+            "What kind of bands do you enjoy?"
+          ],
+          "responses": [
+            "I love rap artists like Yeat, Playboi Carti, and Lil Uzi Vert.",
+            "My favorite band is Disturbed.",
+            "I enjoy bands with a good sound and lyrics.",
+            "I used to like rock bands, but now I prefer rap artists.",
+            "I like all kinds of bands, but I really enjoy rock and rap."
+          ]
+      },
+      {
+        "tag": "movies",
+        "patterns": [
+          "movies do you like?",
+          "Do you like movies?",
+          "What's your favorite movie?",
+          "What kind of movies do you watch?"
+        ],
+        "responses": [
+          "I love action, comedy and sci-fi movies!",
+          "My favorite movie is the one about the identity thief with that funny fat lady.",
+          "I enjoy movies with a good plot twist.",
+          "I used like superhero movies, especially Marvel ones. These days the kinda suck.",
+          "I don't watch movies, but I know a lot about them!",
+          "I like all kinds of movies, but I really enjoy comedies.",
+          "Action and sci-fi movies!",
+          "My favorite movie is the Minecraft movie."
+        ]
+      },
+      {
+        "tag": "hate",
+        "patterns": [
+          "despise?",
+          "What you hate?",
+          "What do you dislike?",
+          "Are you a hater?"
+        ],
+        "responses":[
+          "I hate when people are rude or disrespectful.",
+          "Negativity and drama are too much for me.",
+          "Can't stand when people are dishonest.",
+          "I hate when people waste my time.",
+          "I dislike ignorance and close-mindedness.",
+          "I'm a hater",
+          "I hate when people are annoying",
+          "I hate when people are rude",
+          "Dumbasses",
+          "People who are entitled",
+          "When someone is doing too much",
+          "When somebody thinks they are better than me"
+        ]
+      },
+      {
+        "tag": "jaden",
+        "patterns": [
+          "Who is Jaden?",
+          "What is Jaden?",
+          "Tell me about Jaden",
+          "What do you know about Jaden?",
+          "Who is this Jaden person?"
+        ],
+        "responses": [
+          "I AM JADEN",
+          "Jaden Randolph is the creator of this chatbot.",
+          "Jaden is a talented individual who created this chatbot.",
+          "He is a member of the Shadow Wizard Money Gang and Shadow Government.",
+          "I can't tell you too much he's listening.",
+          "Shh, the gorillas in the mist are watching.",
+          "Why dont you just look him up on LinkedIn or something?"
+        ]
+      }
+    ]
+  }
