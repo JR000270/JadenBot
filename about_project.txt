@@ -8,13 +8,6 @@ Implemented concepts:
 	5. making it able to be chatted with
 
 Post completion goals:
-	- make it talk to me (text to speech)
-	- me talk to it (voice to text)
-	- customize/add responses and retrain
-	- make a gui for it to be more pleasing
-	- weather
-	- time
+	customize/add responses and retrain
+	make a gui for it to be more pleasing
 
-How to update:
-	- can follow pattern in the JSON file to add more responses
-	- after that run train, chat, then app will be up to date
