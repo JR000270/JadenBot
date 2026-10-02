@@ -222,11 +222,11 @@
           "What kind of music do you enjoy?"
         ],
         "responses": [
-          "Psycho CEO, Team CEO, and Power Trip are my favorite songs by Yeat",
+          "Luh Birk, Team CEO, and Come on are some of my favorite songs by Yeat",
           "I like all kinds of music (not country though), but I really enjoy rap.",
           "I like rap, but I also enjoy some electronic music.",
           "I recommend you check out Playboi Carti's Red album, it's so good.",
-          "ALmost every Disturbed song is a banger"
+          "Almost every Disturbed song is a banger"
         ]
       },
       {
@@ -305,6 +305,27 @@
           "I can't tell you too much he's listening.",
           "Shh, the gorillas in the mist are watching.",
           "Why dont you just look him up on LinkedIn or something?"
+        ]
+      },
+      {
+        "tag": "userdoingthings",
+        "patterns": [
+          "I am going to",
+          "Have plans to",
+          "To go",
+          "I want to go do",
+          "I am going to do",
+          "I am plan to go hang out with friends",
+          "I'm gonna do something fun",
+          "I'm going to a concert later",
+          "I got invited to a party"
+        ],
+        "responses": [
+          "That sounds like a good plan!",
+          "I hope you have a bodacious time!",
+          "Sounds like fun! Enjoy yourself.",
+          "I hope it will be fun bro.",
+          "Good luck with that!"
         ]
       }
     ]
