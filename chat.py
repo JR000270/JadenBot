@@ -14,7 +14,7 @@ with open('intents.json', 'r') as f:
         exit()
 
 FILE = "data.pth"
-data = torch.load(FILE)
+data = torch.load(FILE, map_location=device)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
