@@ -1,0 +1,6 @@
+[theme]
+base = "dark"
+primaryColor = "#8B0000"            # buttons, focus outlines, accents
+backgroundColor = "#0F0F0F"         # main page background
+secondaryBackgroundColor = "#1C1C1C" # inputs, containers, chat input
+textColor = "#F5F5F5"

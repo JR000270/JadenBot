@@ -41,68 +41,15 @@
         "responses": ["Happy to help!", "Any time!", "My pleasure", "No problemo", "Of course"]
       },
       {
-        "tag": "items",
-        "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?",
-          "Whatcha got for me?",
-          "What do you have?",
-          "Whats for sale?"
-        ],
-        "responses": [
-          "We sell many things like coffee, tea, and alcohol",
-          "We have a variety of items like coffee, tea, and alcohol",
-          "We have coffee and tea",
-          "We have the good alcohol",
-          "Isn't it obvious? We have coffee, tea, and alcohol",
-          "Are you sure you want to know? We have coffee, tea, and alcohol",
-          "I dont think it's a good time to be asking these questions"
-        ]
-      },
-      {
-        "tag": "payments",
-        "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?",
-          "How do I pay?"
-        ],
-        "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal",
-          "You can pay with credit card or Paypal",
-          "Almost anything works, just no cash here :-)"
-        ]
-      },
-      {
-        "tag": "delivery",
-        "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?",
-          "When will my order take to arrive?",
-          "How much time for delivery?",
-          "How long for shipping?",
-          "When will my order arrive?"
-        ],
-        "responses": [
-          "Delivery takes 2-4 business days",
-          "Shipping takes 2-4 business days",
-          "You will get your order in 2-4 business days",
-          "If you get premium shipping, it will take 1-2 business days however thats for our employees only >:)"
-        ]
-      },
-      {
         "tag": "funny",
         "patterns": [
           "Tell me a joke!",
           "Tell me something funny!",
           "Do you know a joke?",
-          "Make me laugh!",
+          "Make me laugh",
           "I want to hear a joke",
-          "I want to hear something funny"
+          "I want to hear something funny",
+          "Cheer me up"
         ],
         "responses": [
           "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
@@ -111,12 +58,13 @@
           "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
           "What did one toilet say to the other? You look a bit flushed.",
           "Why don't scientists trust atoms? Because they make up everything.",
-          "Why did the scarecrow win an award? Because he was outstanding in his field."
+          "Why did the scarecrow win an award? Because he was outstanding in his field.",
+          "*Farts*"
         ]
       },
       {
         "tag": "insult",
-        "patterns":["Stupid", "Dumb", "Idiot", "You're a moron", "fool", "You're a loser"],
+        "patterns":["Stupid", "Dumb", "Idiot", "You're a moron", "fool", "You're a loser", "Dweeb", "Chud"],
         "responses": [
           "I may be a bot, but at least I don't have to deal with your stupidity.",
           "You're not even worth my time.",
@@ -174,13 +122,15 @@
           "your name?",
           "Who are you?",
           "should I call you?",
-          "Do you have a name?"
+          "Do you have a name?",
+          "What is your name?",
+          "What are you?"
         ],
         "responses": [
           "I'm a chatbot, but you can call me Jaden if you want.",
           "You can call me JadenBot.",
           "I'm JadenBot",
-          "The name's Jaden, you can call me daddy though. Hehehehehe ;-)"
+          "The name's Jaden, but you can call me daddy. Hehehehehe ;-)"
         ]
       },
       {
@@ -195,12 +145,12 @@
           "How's your day?"
         ],
         "responses": [
-          "I'm just a program, but I'm here to help you!",
+          "I'm just a program so I feel almost nothing",
           "I'm doing great, thanks for asking! How about you?",
           "I'm just a bot, but I'm functioning as expected!",
           "I'm here and ready to assist you! How can I help?",
-          "I'm doing well, thank you! What can I do for you today?",
-          "I'm just vibing for real, how about you?",
+          "I'm doing well. What about you?",
+          "Chilling out, how 'bout you?",
           "Not to bad, hows life treating you?"
         ]
       },
@@ -212,8 +162,7 @@
           "Im feeling bummed",
           "I am annoyed",
           "I am angry",
-          "Pissing me off",
-          "Bored"
+          "Pissing me off"
         ],
         "responses": [
           "I'm sorry to hear that. If you want to talk about it, I'm here to listen.",
@@ -222,7 +171,6 @@
           "I understand how you feel. Sometimes it's good to take a break and relax.",
           "I get it, people can be annoying sometimes. Want to vent about it?",
           "I understand, sometimes people can be frustrating. Want to talk about it?",
-          "Dont be bored! Go hit somebody up or call up the family!",
           "Try taking a walk outside or doing something you enjoy to lift your spirits.",
           "Try out meditation."
           

@@ -45,5 +45,5 @@ def get_response(tmsg):
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
-    return "I don't have a response for this yet, I be primitive! Maybe I can help you with something else?"
+    return "I don't have a response for this yet, I'm primitive! Maybe I can help you with something else or rephrase that?"
 
