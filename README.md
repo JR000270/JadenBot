@@ -1,6 +1,7 @@
 # JadenBot
 
 A feed-forward neural network chatbot built with PyTorch, using intent classification over a small set of predefined patterns and responses. Includes a Streamlit chat UI.
+Link: https://jadenbot.streamlit.app
 
 ## How it works
 
