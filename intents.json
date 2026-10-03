@@ -123,9 +123,7 @@
           "your name?",
           "Who are you?",
           "should I call you?",
-          "Do you have a name?",
-          "What is your name?",
-          "What are you?"
+          "Do you have a name?"
         ],
         "responses": [
           "I'm a chatbot, but you can call me Jaden if you want.",
@@ -293,11 +291,8 @@
       {
         "tag": "jaden",
         "patterns": [
-          "Who is Jaden?",
-          "What is Jaden?",
-          "Tell me about Jaden",
-          "What do you know about Jaden?",
-          "Who is this Jaden person?"
+          "Jaden",
+          "creator"
         ],
         "responses": [
           "I AM JADEN",
@@ -458,6 +453,5 @@
           "I prefer to focus on more positive aspects of life"
         ]
       }
-      
     ]
   }
