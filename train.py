@@ -57,7 +57,7 @@ class ChatDataset(Dataset):
 
 #hyperparameters
 batch_size = 8
-hidden_size = 12
+hidden_size = 64
 output_size = len(tags)
 input_size = len(X_train[0])#length of each bag of words we made
 learning_rate = 0.001

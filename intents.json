@@ -11,7 +11,16 @@
           "Yo dude",
           "Howdy",
           "Hola",
-          "Wassup"
+          "Wassup",
+          "Sup",
+          "Hey there",
+          "Hello there",
+          "Hiya",
+          "Greetings",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Hi JadenBot"
         ],
         "responses": [
           "Hey :-)",
@@ -26,7 +35,22 @@
       },
       {
         "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye", "Peace out", "Adios"],
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Peace out",
+          "Adios",
+          "Bye bye",
+          "See ya",
+          "Catch you later",
+          "Talk to you later",
+          "Good night",
+          "Take care",
+          "I gotta head out",
+          "I need to leave",
+          "Time to log off"
+        ],
         "responses": [
           "See you later, thanks for visiting",
           "Have a nice day",
@@ -37,7 +61,22 @@
       },
       {
         "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Preciate you", "I appreciate it"],
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thanks a lot!",
+          "Preciate you",
+          "I appreciate it",
+          "Thank you so much",
+          "Thanks man",
+          "Much appreciated",
+          "Thx",
+          "Ty",
+          "Cheers",
+          "Thanks for the help",
+          "That was helpful"
+        ],
         "responses": ["Happy to help!", "Any time!", "My pleasure", "No problemo", "Of course"]
       },
       {
@@ -49,7 +88,14 @@
           "Make me laugh",
           "I want to hear a joke",
           "I want to hear something funny",
-          "Cheer me up"
+          "Cheer me up",
+          "Say something funny",
+          "Got any jokes?",
+          "Know any good jokes?",
+          "Tell me another joke",
+          "Can you tell me a joke?",
+          "Joke please",
+          "Make me smile"
         ],
         "responses": [
           "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
@@ -64,7 +110,23 @@
       },
       {
         "tag": "insult",
-        "patterns":["Stupid", "Dumb", "Idiot", "You're a moron", "fool", "You're a loser", "Dweeb", "Chud"],
+        "patterns": [
+          "Stupid",
+          "Dumb",
+          "Idiot",
+          "You're a moron",
+          "fool",
+          "You're a loser",
+          "Dweeb",
+          "Chud",
+          "You suck",
+          "You're useless",
+          "You're trash",
+          "You're the worst",
+          "Shut up",
+          "You're so stupid",
+          "You're dumb"
+        ],
         "responses": [
           "I may be a bot, but at least I don't have to deal with your stupidity.",
           "You're not even worth my time.",
@@ -87,7 +149,15 @@
           "You're a genius",
           "You are smart",
           "You are cool",
-          "Legend"
+          "Legend",
+          "You're the best",
+          "Good bot",
+          "You rock",
+          "You're brilliant",
+          "Nice job",
+          "Well done",
+          "You're the GOAT",
+          "Love you bot"
         ],
         "responses": [
           "Thanks! You're not so bad yourself, I guess.",
@@ -105,16 +175,24 @@
           "Can you help me?",
           "I need help",
           "Help me please",
+          "Help",
           "Can you assist me?",
           "I need assistance",
           "Can you support me?",
-          "I need support"
+          "I need support",
+          "Could you help me out?",
+          "I need a hand",
+          "I have a question",
+          "Can I ask you something?",
+          "What can you do?",
+          "What can I ask you?"
         ],
         "responses": [
           "Sure, what do you need help with?",
           "I'm here to help! What do you need?",
           "Of course! How can I assist you?",
-          "I'm happy to help! What do you need assistance with?"
+          "I'm happy to help! What do you need assistance with?",
+          "I can chat, tell jokes, and tell you about my music, movies, and pets!"
         ]
       },
       {
@@ -122,8 +200,15 @@
         "patterns": [
           "your name?",
           "Who are you?",
-          "should I call you?",
-          "Do you have a name?"
+          "What should I call you?",
+          "Do you have a name?",
+          "What is your name?",
+          "What's your name?",
+          "What are you called?",
+          "What do people call you?",
+          "Tell me your name",
+          "Introduce yourself",
+          "What are you?"
         ],
         "responses": [
           "I'm a chatbot, but you can call me Jaden if you want.",
@@ -143,7 +228,15 @@
           "Are you okay?",
           "What's up?",
           "How's life?",
-          "How's your day?"
+          "How's your day?",
+          "How are you doing?",
+          "How you doing?",
+          "How have you been?",
+          "How's your day going?",
+          "Are you doing well?",
+          "How are things?",
+          "What's good?",
+          "How's everything?"
         ],
         "responses": [
           "I'm just a program so I feel almost nothing",
@@ -152,7 +245,7 @@
           "I'm here and ready to assist you! How can I help?",
           "I'm doing well. What about you?",
           "Chilling out, how 'bout you?",
-          "Not to bad, hows life treating you?"
+          "Not too bad, how's life treating you?"
         ]
       },
       {
@@ -163,18 +256,25 @@
           "Im feeling bummed",
           "I am annoyed",
           "I am angry",
-          "Pissing me off"
+          "Pissing me off",
+          "I'm sad",
+          "I'm upset",
+          "I'm having a bad day",
+          "I feel terrible",
+          "I feel awful",
+          "I'm stressed",
+          "I'm tired",
+          "I feel lonely",
+          "I'm depressed",
+          "I'm mad"
         ],
         "responses": [
           "I'm sorry to hear that. If you want to talk about it, I'm here to listen.",
-          "It's great to hear you're feeling happy! What made your day?",
-          "I'm glad you're feeling great! Keep that positive energy going!",
           "I understand how you feel. Sometimes it's good to take a break and relax.",
           "I get it, people can be annoying sometimes. Want to vent about it?",
           "I understand, sometimes people can be frustrating. Want to talk about it?",
           "Try taking a walk outside or doing something you enjoy to lift your spirits.",
           "Try out meditation."
-          
         ]
       },
       {
@@ -186,7 +286,15 @@
           "I'm good",
           "I'm feeling fantastic",
           "I'm feeling amazing",
-          "I'm in a good mood"
+          "I'm in a good mood",
+          "I'm happy",
+          "I'm doing great",
+          "I'm great",
+          "I'm doing well",
+          "Pretty good",
+          "I feel good",
+          "Having a great day",
+          "Life is good"
         ],
         "responses": [
           "That's great to hear! What made your day?",
@@ -196,7 +304,7 @@
           "Great to hear! What are you looking forward to?",
           "Glad to hear that! Anything fun planned for today?",
           "Good to hear, what are you up to?",
-          "Thats bodcaious!"
+          "That's bodacious!"
         ]
       },
       {
@@ -204,7 +312,15 @@
         "patterns": [
           "Where are you located?",
           "What is your location?",
-          "Where can I find you?"
+          "Where can I find you?",
+          "Where do you live?",
+          "Where are you from?",
+          "Where are you?",
+          "Where is your home?",
+          "What city are you in?",
+          "Where are you based?",
+          "Do you have an address?",
+          "Are you on the internet?"
         ],
         "responses": [
           "I'm located in the digital world, I don't have a physical address.",
@@ -219,8 +335,16 @@
           "What music do you like?",
           "Do you like music?",
           "What's your favorite song?",
-          "Do you have a favorite band?",
-          "What kind of music do you enjoy?"
+          "What kind of music do you enjoy?",
+          "What genre do you listen to?",
+          "What do you listen to?",
+          "What songs are you into?",
+          "Recommend me a song",
+          "Got any song recommendations?",
+          "What's a good song?",
+          "What's your favorite album?",
+          "What have you been listening to lately?",
+          "Do you like rap?"
         ],
         "responses": [
           "Luh Birk, Team CEO, and Come on are some of my favorite songs by Yeat",
@@ -231,21 +355,28 @@
         ]
       },
       {
-          "tag": "musicartists",
-          "patterns": [
-            "What bands do you like?",
-            "Do you like bands?",
-            "What's your favorite band?",
-            "Do you have a favorite singer?",
-            "What kind of bands do you enjoy?"
-          ],
-          "responses": [
-            "I love rap artists like Yeat, Playboi Carti, and Lil Uzi Vert.",
-            "My favorite band is Disturbed.",
-            "I enjoy bands with a good sound and lyrics.",
-            "I used to like rock bands, but now I prefer rap artists.",
-            "I like all kinds of bands, but I really enjoy rock and rap."
-          ]
+        "tag": "musicartists",
+        "patterns": [
+          "What bands do you like?",
+          "Do you like bands?",
+          "What's your favorite band?",
+          "Do you have a favorite singer?",
+          "What kind of bands do you enjoy?",
+          "Who is your favorite artist?",
+          "Who is your favorite rapper?",
+          "What artists do you listen to?",
+          "What singers do you like?",
+          "Who's your favorite musician?",
+          "Any artists you recommend?",
+          "Which rappers are the best?"
+        ],
+        "responses": [
+          "I love rap artists like Yeat, Playboi Carti, and Lil Uzi Vert.",
+          "My favorite band is Disturbed.",
+          "I enjoy bands with a good sound and lyrics.",
+          "I used to like rock bands, but now I prefer rap artists.",
+          "I like all kinds of bands, but I really enjoy rock and rap."
+        ]
       },
       {
         "tag": "movies",
@@ -253,46 +384,43 @@
           "movies do you like?",
           "Do you like movies?",
           "What's your favorite movie?",
-          "What kind of movies do you watch?"
+          "What kind of movies do you watch?",
+          "What are your favorite films?",
+          "What films do you like?",
+          "Seen any good movies lately?",
+          "Recommend me a movie",
+          "What's a good movie to watch?",
+          "Do you watch TV?",
+          "What shows do you watch?",
+          "Do you like anime?"
         ],
         "responses": [
           "I love action, comedy and sci-fi movies!",
           "My favorite movie is the one about the identity thief with that funny fat lady.",
           "I enjoy movies with a good plot twist.",
-          "I used like superhero movies, especially Marvel ones. These days the kinda suck.",
+          "I used to like superhero movies, especially Marvel ones. These days they kinda suck.",
           "I don't watch movies, but I know a lot about them!",
           "I like all kinds of movies, but I really enjoy comedies.",
           "Action and sci-fi movies!",
-          "My favorite movie is the Minecraft movie."
-        ]
-      },
-      {
-        "tag": "hate",
-        "patterns": [
-          "despise?",
-          "What you hate?",
-          "What makes you be a hater?"
-        ],
-        "responses":[
-          "I hate when people are rude or disrespectful.",
-          "Negativity and drama are too much for me.",
-          "Can't stand when people are dishonest.",
-          "I hate when people waste my time.",
-          "I dislike ignorance and close-mindedness.",
-          "I'm a hater",
-          "I hate when people are annoying",
-          "I hate when people are rude",
-          "Dumbasses",
-          "People who are entitled",
-          "When someone is doing too much",
-          "When somebody thinks they are better than me"
+          "My favorite movie is the Minecraft movie.",
+          "When I'm not watching movies I'm watching Spongebob or some anime."
         ]
       },
       {
         "tag": "jaden",
         "patterns": [
           "Jaden",
-          "creator"
+          "creator",
+          "Who is Jaden?",
+          "Tell me about Jaden",
+          "Who made you?",
+          "Who created you?",
+          "Who is your creator?",
+          "Who built you?",
+          "Who programmed you?",
+          "Who is your developer?",
+          "Who designed you?",
+          "Who owns you?"
         ],
         "responses": [
           "I AM JADEN",
@@ -307,15 +435,20 @@
       {
         "tag": "userdoingthings",
         "patterns": [
-          "I am going to",
-          "Have plans to",
-          "To go",
-          "I want to go do",
-          "I am going to do",
-          "I am plan to go hang out with friends",
+          "I'm going out later",
+          "I have plans tonight",
+          "I'm going to a party",
+          "I got invited to a party",
+          "I'm going to hang out with friends",
           "I'm gonna do something fun",
           "I'm going to a concert later",
-          "I got invited to a party"
+          "I'm heading to the gym",
+          "I'm about to go play basketball",
+          "I'm going on a trip",
+          "I'm going to the mall",
+          "I have a date tonight",
+          "I'm going to play video games",
+          "I'm doing something fun this weekend"
         ],
         "responses": [
           "That sounds like a good plan!",
@@ -331,8 +464,14 @@
           "What do you like?",
           "What are your interests?",
           "What are your hobbies?",
+          "Do you have any hobbies?",
           "What do you enjoy doing?",
-          "What are your favorite things?"
+          "What are your favorite things?",
+          "What's your favorite thing to do?",
+          "What do you like to do?",
+          "What do you do for fun?",
+          "What do you do in your free time?",
+          "What are you into?"
         ],
         "responses": [
           "I like pretending to be a human",
@@ -348,10 +487,20 @@
         "tag": "dislikes",
         "patterns": [
           "What do you dislike?",
+          "What don't you like?",
           "What are your pet peeves?",
           "What annoys you?",
           "What do you find irritating?",
-          "What are your least favorite things?"
+          "What are your least favorite things?",
+          "What do you hate?",
+          "What you hate?",
+          "What makes you a hater?",
+          "despise?",
+          "What do you despise?",
+          "What can't you stand?",
+          "What gets on your nerves?",
+          "What bothers you?",
+          "What makes you mad?"
         ],
         "responses": [
           "I dislike when people are boring",
@@ -359,7 +508,16 @@
           "Sitting and doing nothing gets on my nerves",
           "I dislike ignorance and close-mindedness.",
           "I don't like it when people waste my time.",
-          "Watching a bunch of ads before a video or movie gets old"
+          "Watching a bunch of ads before a video or movie gets old",
+          "I hate when people are rude or disrespectful.",
+          "Negativity and drama are too much for me.",
+          "Can't stand when people are dishonest.",
+          "I'm a hater",
+          "I hate when people are annoying",
+          "Dumbasses",
+          "People who are entitled",
+          "When someone is doing too much",
+          "When somebody thinks they are better than me"
         ]
       },
       {
@@ -368,8 +526,15 @@
           "Do you have any pets?",
           "Do you like animals?",
           "Do you have a dog or cat?",
+          "Do you have a dog?",
+          "Do you have a cat?",
           "What pets do you have?",
-          "Can you tell me about your pets?"
+          "How many pets do you have?",
+          "What animals do you have?",
+          "Can you tell me about your pets?",
+          "Tell me about your animals",
+          "What are your pets' names?",
+          "Are you a dog person or a cat person?"
         ],
         "responses": [
           "I love my cat Tikki, she's so pretty and cute",
@@ -380,14 +545,18 @@
       },
       {
         "tag": "Brownie",
-        "patterns" :[
+        "patterns": [
           "Brownie",
           "Tell me about Brownie",
           "What is brownie?",
           "Who is Brownie?",
+          "Who's Brownie?",
+          "What's Brownie like?",
+          "How is Brownie?",
           "the pet Brownie",
           "Brownie the bacteria",
-          "Brownie the dog"
+          "Brownie the dog",
+          "Brownie the boxer"
         ],
         "responses": [
           "She is a vicious and disgusting bacteria in the shape of a dog.",
@@ -397,12 +566,17 @@
       },
       {
         "tag": "Daisy",
-        "patterns" :[
+        "patterns": [
+          "Daisy",
           "Who is Daisy?",
+          "Who's Daisy?",
           "Tell me about Daisy",
           "What is Daisy?",
+          "What's Daisy like?",
+          "How is Daisy?",
           "the pet Daisy",
-          "Daisy the dog"
+          "Daisy the dog",
+          "Daisy the corgi"
         ],
         "responses": [
           "Daisy is a skinwalker pretending to be a cute dog",
@@ -413,12 +587,16 @@
       },
       {
         "tag": "Tikki",
-        "patterns" :[
+        "patterns": [
+          "Tikki",
           "Who is Tikki?",
           "Tell me about Tikki",
           "What is Tikki?",
+          "What's Tikki like?",
+          "How is Tikki?",
           "the pet Tikki",
           "Tikki the cat",
+          "Tiki",
           "Who is Tiki?",
           "Tell me about Tiki",
           "What is Tiki?",
@@ -439,6 +617,9 @@
           "Are you interested in politics?",
           "What is your take on current events?",
           "What do you think of the president?",
+          "Who did you vote for?",
+          "Who should I vote for?",
+          "election",
           "liberal",
           "conservative",
           "democrat",
@@ -449,7 +630,7 @@
         "responses": [
           "I dont wanna hear about them 'politics'",
           "I try to stay out of the political arena",
-          "It's all a bunch of propoganda and lies in the end",
+          "It's all a bunch of propaganda and lies in the end",
           "I prefer to focus on more positive aspects of life"
         ]
       }
