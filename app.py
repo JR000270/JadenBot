@@ -1,6 +1,14 @@
 
+import time
 import streamlit as st
 from chat import get_response, bot_name
+
+
+def type_out(text, delay=0.02):
+    """Yield the reply one character at a time for a typewriter effect."""
+    for char in text:
+        yield char
+        time.sleep(delay)
 
 #run command:  streamlit run C:\Users\Jaden\OneDrive\Documents\GitHub\JadenBot/app.py
 # Modern red and black theme
@@ -15,7 +23,30 @@ st.markdown("""
         border-radius: 8px;
         margin-bottom: 10px;
     }
-    </style>
+    /*Glowing text effect*/
+    .stApp, .stApp * {
+        color: #33ff66;
+        text-shadow: 0 0 2px #33ff66, 0 0 6px #09c93288, 0 0 12px #09c93244;
+    }
+    /* Scanlines + vignette overlay (doesn't block clicks) */
+    .stApp::after {
+        content: "";
+        position: fixed; inset: 0;
+        pointer-events: none;
+        z-index: 9999;
+        background:
+            repeating-linear-gradient(to bottom,
+                rgba(0,0,0,0) 0px, rgba(0,0,0,0) 2px,
+                rgba(0,0,0,0.25) 3px),
+            radial-gradient(ellipse at center,
+                transparent 60%, rgba(0,0,0,0.6) 100%);
+        animation: flicker 0.15s infinite;
+    }
+    @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        50%      { opacity: 0.94; }
+    }
+        </style>
 """, unsafe_allow_html=True)
 
 # Initialize session state
@@ -37,11 +68,6 @@ with st.sidebar.expander("What can I ask?", expanded=True):
         - How it's doing: *"How are you?"*
         - Thanks & compliments: *"You're awesome"*
 
-        **About Jaden**
-        - *"Who is Jaden?"*
-        - *"What's your name?"*
-        - *"Where are you located?"*
-
         **Interests**
         - Music & artists: *"What bands do you like?"*
         - Movies: *"What's your favorite movie?"*
@@ -52,7 +78,7 @@ with st.sidebar.expander("What can I ask?", expanded=True):
         - Your mood: *"I feel sad"*, *"I'm feeling great"*
         """
     )
-    st.caption("Short, simple questions work best. JadenBot matches your message to one of these topics.")
+    st.caption("Short, simple questions work best. JadenBot matches your message to topics like these examples.")
 
 with st.sidebar.expander("About JadenBot", expanded=False):
     st.markdown(
@@ -94,4 +120,4 @@ if user_input:
     st.session_state.chat_history.append({"sender": "assistant", "message": bot_reply, "avatar": "assets/jadenbot_avatar_2.png"})
     with chat_box:
         with st.chat_message("assistant", avatar="assets/jadenbot_avatar_2.png"):
-            st.markdown(bot_reply)
+            st.write_stream(type_out(bot_reply))

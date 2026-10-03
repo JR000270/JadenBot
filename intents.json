@@ -72,7 +72,8 @@
           "If I had a dollar for every time you said something stupid, I'd be rich.",
           "You're like a software update. Whenever I see you, I think 'Not now.'",
           "I'd agree with you, but then we'd both be wrong.",
-          "You're fat"
+          "You're fat",
+          "Don't act like a chud"
         ]
       },
       {
@@ -270,8 +271,7 @@
         "patterns": [
           "despise?",
           "What you hate?",
-          "What do you dislike?",
-          "Are you a hater?"
+          "What makes you be a hater?"
         ],
         "responses":[
           "I hate when people are rude or disrespectful.",
@@ -323,9 +323,61 @@
         "responses": [
           "That sounds like a good plan!",
           "I hope you have a bodacious time!",
-          "Sounds like fun! Enjoy yourself.",
-          "I hope it will be fun bro.",
+          "Sounds like fun! Enjoy yourself",
+          "I hope it will be fun bro",
           "Good luck with that!"
+        ]
+      },
+      {
+        "tag": "likes",
+        "patterns": [
+          "What do you like?",
+          "What are your interests?",
+          "What are your hobbies?",
+          "What do you enjoy doing?",
+          "What are your favorite things?"
+        ],
+        "responses": [
+          "I like pretending to be a human",
+          "*Farts Loudly*",
+          "I enjoy listening to music",
+          "Watching movies and TV shows like anime and some cartoons",
+          "I'm pretty good at telling jokes",
+          "Some of my favorite things are music, movies, and chatting with people"
+        ]
+      },
+      {
+        "tag": "dislikes",
+        "patterns": [
+          "What do you dislike?",
+          "What are your pet peeves?",
+          "What annoys you?",
+          "What do you find irritating?",
+          "What are your least favorite things?"
+        ],
+        "responses": [
+          "I dislike when people are boring",
+          "I get annoyed by my dog farting",
+          "Sitting and doing nothing gets on my nerves",
+          "I dislike ignorance and close-mindedness.",
+          "I don't like it when people waste my time.",
+          "Watching a bunch of ads before a video or movie gets old"
+        ]
+      },
+      {
+        "tag": "pets",
+        "patterns": [
+          "Do you have any pets?",
+          "Do you like animals?",
+          "Do you have a dog or cat?",
+          "What pets do you have?",
+          "Can you tell me about your pets?"
+        ],
+        "responses": [
+          "I love my cat Tikki, she's so pretty and cute",
+          "My dog Daisy is precious but she is a bum",
+          "Brownie the bacteria/boxer dog is super crazy and funny",
+          "I have three pets: a cat named Tikki, a dog named Daisy, and a bacteria named Brownie."
         ]
       }
     ]

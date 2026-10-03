@@ -1,6 +1,21 @@
+[server]
+enableStaticServing = true          # serves ./static at app/static/
+
 [theme]
 base = "dark"
-primaryColor = "#8B0000"            # buttons, focus outlines, accents
-backgroundColor = "#0F0F0F"         # main page background
+primaryColor = "#09c932"            # buttons, focus outlines, accents
+backgroundColor = "#191919"         # main page background
 secondaryBackgroundColor = "#1C1C1C" # inputs, containers, chat input
 textColor = "#F5F5F5"
+font = "Silkscreen"                 # body text
+headingFont = "Silkscreen"          # titles / headers
+
+[[theme.fontFaces]]
+family = "Silkscreen"
+url = "app/static/Silkscreen-Regular.ttf"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Silkscreen"
+url = "app/static/Silkscreen-Bold.ttf"
+weight = 700
