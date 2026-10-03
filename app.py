@@ -63,6 +63,10 @@ st.sidebar.button("New Chat", on_click=lambda: st.session_state.chat_history.cle
 with st.sidebar.expander("What can I ask?", expanded=True):
     st.markdown(
         """
+        **Disclaimer**
+        - This is not an AI chatbot and has no memory of past conversations. Each message is treated independently.
+        - Functions on a limited set of intents and patterns, so it may not understand everything.
+        
         **Small talk**
         - Greetings & goodbyes: *"Hey!"*, *"See you later"*
         - How it's doing: *"How are you?"*
