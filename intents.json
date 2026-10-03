@@ -534,7 +534,8 @@
           "Can you tell me about your pets?",
           "Tell me about your animals",
           "What are your pets' names?",
-          "Are you a dog person or a cat person?"
+          "Are you a dog person or a cat person?",
+          "pets"
         ],
         "responses": [
           "I love my cat Tikki, she's so pretty and cute",
@@ -556,7 +557,10 @@
           "the pet Brownie",
           "Brownie the bacteria",
           "Brownie the dog",
-          "Brownie the boxer"
+          "Brownie the boxer",
+          "bacteria",
+          "the dog brownie",
+          "pet brownie"
         ],
         "responses": [
           "She is a vicious and disgusting bacteria in the shape of a dog.",
@@ -576,7 +580,8 @@
           "How is Daisy?",
           "the pet Daisy",
           "Daisy the dog",
-          "Daisy the corgi"
+          "Daisy the corgi",
+          "Can you tell me about your dog Daisy"
         ],
         "responses": [
           "Daisy is a skinwalker pretending to be a cute dog",

@@ -1,5 +1,5 @@
 import json
-from nltk_utils import stem, tokenize, bag_of_words
+from embeddings import encode, ENCODER_NAME
 import numpy as np
 
 import torch
@@ -11,7 +11,6 @@ from model import NeuralNet
 with open('intents.json', 'r') as f:
     intents = json.load(f)
 
-all_words = [] 
 tags = [] #json tags
 xy = [] #will hold patterns and tags
 
@@ -19,36 +18,23 @@ for intent in intents['intents']:
     tag = intent['tag']
     tags.append(tag)
     for pattern in intent['patterns']:
-        w = tokenize(pattern)
-        all_words.extend(w)#extend not append bc we dont want to put an array of arrays
-        xy.append((w,tag)) #add a tuple of w,tag
+        xy.append((pattern,tag)) #raw sentence, the transformer does its own tokenizing
 
-ignore_words = ['?', '!', ',' , '.']
-all_words = [stem(w) for w in all_words if w not in ignore_words]
-all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
-#create bag of words
-X_train = []
-y_train = []
-for(pattern_sentence, tag) in xy:
-    bag = bag_of_words(pattern_sentence, all_words)
-    X_train.append(bag)
-
-    label = tags.index(tag)
-    y_train.append(label) #Cross entropy loss, so we dont care for 1 hot encoding
-
-X_train = np.array(X_train)
-y_train = np.array(y_train)
+#turn every pattern into a 384 number embedding in one batch (much faster than one at a time)
+X_train = encode([pattern for (pattern, tag) in xy])
+y_train = np.array([tags.index(tag) for (pattern, tag) in xy]) #Cross entropy loss, so we dont care for 1 hot encoding
 
 #new data set
 class ChatDataset(Dataset):
     def __init__(self):
         self.n_samples = len(X_train)
-        self.x_data = torch.tensor(X_train, dtype=torch.float32)  # Convert to PyTorch tensor
-        self.y_data = torch.tensor(y_train, dtype=torch.long)     # Convert to PyTorch tensor
+        # Convert to PyTorch tensors
+        self.x_data = torch.tensor(X_train, dtype=torch.float32)  
+        self.y_data = torch.tensor(y_train, dtype=torch.long)     
 
-    def __getitem__(self, index):  # Fixed method name
+    def __getitem__(self, index): 
         return self.x_data[index], self.y_data[index]
     
     def __len__(self):
@@ -59,10 +45,10 @@ class ChatDataset(Dataset):
 batch_size = 8
 hidden_size = 64
 output_size = len(tags)
-input_size = len(X_train[0])#length of each bag of words we made
+input_size = X_train.shape[1]#length of each embedding (384 for MiniLM)
 learning_rate = 0.001
 num_epochs = 1000
-#print(input_size, len(all_words)) #making sure it all matches up
+#print(input_size) #making sure it all matches up
 #print(output_size, len(tags))
 
 dataset = ChatDataset()
@@ -98,7 +84,7 @@ data = {
     "input_size": input_size,
     "output_size": output_size,
     "hidden_size": hidden_size,
-    "all_words": all_words,
+    "encoder_name": ENCODER_NAME, #so chat.py can check it's using the same encoder
     "tags": tags
 }
 
